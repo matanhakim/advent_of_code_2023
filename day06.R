@@ -2,7 +2,6 @@ library(tidyverse)
 input <- read_lines("inputs/day06.txt") |> 
   as_tibble()
 
-
 # Part one ----------------------------------------------------------------
 
 df <- input |> 
